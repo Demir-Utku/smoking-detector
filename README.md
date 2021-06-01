@@ -42,7 +42,7 @@ python3 toBucket.py
 ### Web Application Section
 
 1. Install the latest `node` and `yarn` on your operating system.
-2. Change directory to project's root directory.
+2. Change directory: `cd web_app`.
 3. Enter this command in command line:
 ```bash
 yarn
