@@ -1,0 +1,124 @@
+.header {
+  background-color: #523FFF;
+  width: 100%;
+  display: flex!important;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+
+@media all and (min-width: 1190px) {
+  .header {
+    min-height: 8vw;
+    height: 8vw;
+  }
+}
+
+@media all and (min-width: 571px) and (max-width: 1189px) {
+  .header {
+    min-height: 9vw;
+    height: 9vw;
+  }
+}
+
+@media all and (max-width: 570px) {
+  .header {
+    min-height: 10vw;
+    height: 10vw;
+  }
+}
+
+.search-form {
+  width: 25vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.input {
+  height: 3vw;
+  width: 25vw;
+  border: 0px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  line-height: normal;
+  font-size: 1.2vw;
+  font-weight: bold;
+  color: #050417;
+  padding-left: 16px;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+  color: #D5D7E5;
+}
+
+.homelink, .aboutlink {
+  align-self: center;
+  width: 14vw;
+  height: 3vw;
+  border-radius: 1.5vw;
+  line-height: normal;
+  font-size: 1.2vw;
+  letter-spacing: 0.1em;
+  background-color: #f8930e;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.homelink:hover, .aboutlink:hover {
+  background-color: white;
+  color: black;
+}
+
+.home, .about {
+  text-decoration: none;
+  color: white;
+}
+
+.home:hover, .about:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.search-button {
+  align-self: center;
+  width: 14vw;
+  height: 3vw;
+  border: 0px;
+  background: #08c440;
+  font-style: normal;
+  border-radius: 1.5vw;
+  font-weight: 900;
+  line-height: normal;
+  font-size: 1.2vw;
+  letter-spacing: 0.1em;
+  color: #f7f1f0;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background: #f7f1f0;
+  color: #08c440;
+}
+
+.inline-input-metadata {
+  width: 27.6vw;
+  margin-top: inherit;
+  margin-left: 5.1vw;
+}
+
+.Spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

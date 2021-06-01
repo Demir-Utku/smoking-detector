@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+img:hover, img:active {
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1.5fr));
+  grid-column-gap: 1rem;
+}
+
+.About {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.h31 {
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight: 200;
+  margin-top: 0.2%;
+}
+
+.h30 {
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight: 200;
+  margin-top: 1%;
+}
+
+h4 {
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-top: 1.7%;
+  margin-bottom: 1.5%;
+}
+
+.info {
+  margin-top: 1.5%;
+}
+
+.advisor {
+  margin-top: 2%;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 1.4em;
+  font-weight: 200;
+  margin: 1%;
+}
+
+@media all and (min-width: 1800px) {
+  .arrayImage {
+    margin: 5%;
+    width: 380px;
+    height: 210px;
+  }
+}
+
+@media all and (min-width: 1400px) and (max-width: 1799px) {
+  .arrayImage {
+    margin: 4.5%;
+    width: 330.3px;
+    height: 185px;
+  }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+  .arrayImage {
+    margin: 4.5%;
+    width: 350.3px;
+    height: 197px;
+  }
+}
+
+@media all and (min-width: 1020px) and (max-width: 1199px) {
+  .arrayImage {
+    margin: 2.5%;
+    width: 310.3px;
+    height: 185px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1019px) {
+  .arrayImage {
+    margin: 4.5%;
+    width: 350.3px;
+    height: 174px;
+  }
+}
+
+@media all and (min-width: 572px) and (max-width: 767px) {
+  .arrayImage {
+    margin: 4.5%;
+    width: 380.3px;
+    height: 213px;
+  }
+}
+
+@media all and (max-width: 571px) {
+  .arrayImage {
+    margin: 2%;
+    width: 280px;
+    height: 155px;
+  }
+}
+
+
+@media all and (min-width: 1600px) {
+  .paper {
+    margin-top: 3vh;
+  }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1599px) {
+  .paper {
+    margin-top: 5vh;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .paper {
+    margin-top: 6vh;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .paper {
+    margin-top: 6vh;
+  }
+}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .paper {
+    margin-top: 8vh;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .paper {
+    margin-top: 9vh;
+  }
+}
